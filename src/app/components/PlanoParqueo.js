@@ -1,7 +1,7 @@
-"use client"; // Asegúrate de que esta línea esté presente si usas hooks
+"use client"; // Asegúrate de que esta línea esté presente
 
 import Espacio from './Espacio'; // Asegúrate de que esta línea esté presente
-import React from 'react'; // Importa React si es necesario
+import React from 'react';
 
 const PlanoParqueo = ({ espacios, reservarEspacio }) => {
   return (
